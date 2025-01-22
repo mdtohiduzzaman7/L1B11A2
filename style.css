@@ -132,6 +132,15 @@ header {
 }
 /* header end */
 
+/* curriculam section start */
+.curriculam {
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* curriculam section end */
+
 @media screen and (max-width: 576px) {
   /* nav start */
   .menu,
