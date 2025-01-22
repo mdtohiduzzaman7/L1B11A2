@@ -129,8 +129,7 @@ header {
 
   background: rgb(17, 17, 17);
 }
-.header-images img {
-}
+
 /* header end */
 
 /* curriculam section start */
@@ -252,5 +251,19 @@ header {
   .btn2 {
     text-align: center;
   }
+
+  .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* header end */
+
+  /* curriculam Section start */
+  .card-all {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  /* curriculam Section end */
 }
