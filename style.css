@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* Nav start */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+
+  align-items: center;
+}
+.school {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.menu {
+  display: flex;
+  column-gap: 32px;
+}
+
+.home {
+  color: rgb(254, 163, 1);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.about {
+  color: rgb(1, 172, 253);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.faci {
+  color: rgb(5, 212, 223);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.admi {
+  color: rgb(93, 88, 239);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.btn1 {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  border-radius: 12px;
+  padding: 10px 30px;
+
+  background: rgb(254, 163, 1);
+}
+.bar {
+  display: none;
+}
+/* Nav End */
+
+/* header strart */
+
+header {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+.header-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header-text p {
+  font-size: 20px;
+  line-height: 20px;
+  color: grey;
+}
+
+.emp {
+  color: #fea301;
+}
+.tow {
+  color: #01acfd;
+}
+
+.btn2 {
+  color: rgb(255, 255, 255);
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 12px;
+  padding: 10px 30px;
+
+  background: rgb(17, 17, 17);
+}
+.header-images img {
+}
+/* header end */
+
+@media screen and (max-width: 576px) {
+  /* nav start */
+  .menu,
+  .btn1 {
+    visibility: hidden;
+    display: none;
+  }
+  .bar {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* nav end */
+
+  /* header start */
+  header {
+    flex-direction: column-reverse;
+  }
+
+  .header-text h1,
+  p,
+  .btn2 {
+    text-align: center;
+  }
+  /* header end */
+}
