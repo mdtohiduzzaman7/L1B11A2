@@ -152,6 +152,7 @@ header {
 .card-all {
   display: flex;
   column-gap: 30px;
+  padding-bottom: 30px;
 }
 .card {
   box-sizing: border-box;
@@ -224,6 +225,25 @@ header {
 .card > .link3 {
   color: #8700ff;
 }
+
+.icon{
+  text-align: center;
+}
+.icon i {
+  color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  font-size: 24px;
+  font-weight: 900;
+ 
+  
+  text-align: center;
+  background-color: #fea301;
+  padding: 15px;
+  border-radius: 50px;
+  margin-right: 10px;
+  
+}
 /* curriculam section end */
 
 @media screen and (max-width: 576px) {
@@ -264,6 +284,11 @@ header {
   .card-all {
     flex-direction: column;
     row-gap: 15px;
+  }
+
+  .icon{
+    
+    display: none;
   }
   /* curriculam Section end */
 }
